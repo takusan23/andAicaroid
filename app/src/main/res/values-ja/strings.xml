@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">うるとらあいか</string>
+    <string name="license_screen_title">ライセンス</string>
+    <string name="setting_screen_title">設定</string>
+    <string name="setting_screen_license_title">ライセンス</string>
+    <string name="setting_screen_license_description">ありがとう</string>
+    <string name="setting_screen_source_code_title">ソースコードをみる</string>
+    <string name="setting_screen_source_code_description">GitHub でソースコードを見たり、お手元のパソコンでビルドすることができます。</string>
+    <string name="home_screen_title">おしながき</string>
+    <string name="home_screen_video_to_photo_title">UltraHDR を作る</string>
+    <string name="home_screen_video_to_photo_description">10 ビット HDR 動画（HLG / HDR10 / HDR10+ / Dolby Vision）から、UltraHDR 画像を作成する。</string>
+    <string name="home_screen_video_to_photo_button">Video -> Photo</string>
+    <string name="home_screen_photo_to_video_title">10 ビット HDR 動画を作る</string>
+    <string name="home_screen_photo_to_video_description">UltraHDR 画像から、10 ビット HDR 動画を作成する。</string>
+    <string name="home_screen_photo_to_video_button">Photo -> Video</string>
+    <string name="home_screen_hello_card_title">10 ビット HDR 動画と UltraHDR 画像を作成するアプリです。</string>
+    <string name="home_screen_hello_card_description">10 ビット HDR 動画から UltraHDR 画像作成する。または、UltraHDR 画像から 10 ビット HDR 動画を作成する。</string>
+    <string name="hdr_video_to_ultra_hdr_screen_title">HDR 動画から UltraHDR 画像を作る</string>
+    <string name="hdr_video_to_ultra_hdr_screen_required_hdr_video_message">HDR 動画を選択してください（HLG / HDR10 / HDR10+ / Dolby Vision）</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_success_message">動画を UltraHDR 写真にして保存しました</string>
+    <string name="hdr_video_to_ultra_hdr_screen_open_button_text">開く</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_button_text">保存する</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">保存先は Pictures/Ultraika です。</string>
+    <string name="hdr_video_to_ultra_hdr_screen_select_video_button_text">10 ビット HDR 動画を選択</string>
+    <string name="ultra_hdr_to_hdr_video_screen_title">UltraHDR 画像から HDR 動画を作る</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">保存先は Movie/Ultraika です。</string>
+    <string name="ultra_hdr_to_hdr_video_screen_select_photo_button_text">UltraHDR 画像を選ぶ</string>
+    <string name="ultra_hdr_to_hdr_video_screen_required_ultra_hdr_photo_message">UltraHDR 画像を選んでください</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_success_message">写真を 10 ビット HDR 動画にして保存しました</string>
+    <string name="ultra_hdr_to_hdr_video_screen_open_button_text">開く</string>
+</resources>

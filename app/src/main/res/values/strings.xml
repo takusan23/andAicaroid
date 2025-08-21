@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">andAikacaroid</string>
+    <string name="app_name">andAicaroid</string>
+    <string name="license_screen_title">License</string>
+    <string name="setting_screen_title">Settings</string>
+    <string name="setting_screen_license_title">License</string>
+    <string name="setting_screen_license_description">Thank you</string>
+    <string name="setting_screen_source_code_title">View Source Code</string>
+    <string name="setting_screen_source_code_description">You can view the source code on GitHub and build it on your computer.</string>
+    <string name="home_screen_title">Menu</string>
+    <string name="home_screen_video_to_photo_title">Create UltraHDR</string>
+    <string name="home_screen_video_to_photo_description">Create an UltraHDR image from a 10-bit HDR video (HLG / HDR10 / HDR10+ / Dolby Vision).</string>
+    <string name="home_screen_video_to_photo_button">Video -> Photo</string>
+    <string name="home_screen_photo_to_video_title">Create 10-bit HDR Video</string>
+    <string name="home_screen_photo_to_video_description">Create a 10-bit HDR video from an UltraHDR image.</string>
+    <string name="home_screen_photo_to_video_button">Photo -> Video</string>
+    <string name="home_screen_hello_card_title">This is an app for creating 10-bit HDR videos and UltraHDR images.</string>
+    <string name="home_screen_hello_card_description">Create an UltraHDR image from a 10-bit HDR video, or create a 10-bit HDR video from an UltraHDR image.</string>
+    <string name="hdr_video_to_ultra_hdr_screen_title">Create UltraHDR from HDR Video</string>
+    <string name="hdr_video_to_ultra_hdr_screen_required_hdr_video_message">Please select an HDR video (HLG / HDR10 / HDR10+ / Dolby Vision)</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_success_message">Video saved as UltraHDR photo</string>
+    <string name="hdr_video_to_ultra_hdr_screen_open_button_text">Open</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_button_text">Save</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">Destination is Pictures/Ultraika.</string>
+    <string name="hdr_video_to_ultra_hdr_screen_select_video_button_text">Select 10-bit HDR Video</string>
+    <string name="ultra_hdr_to_hdr_video_screen_title">Create HDR Video from UltraHDR Image</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">Destination is Movie/Ultraika.</string>
+    <string name="ultra_hdr_to_hdr_video_screen_select_photo_button_text">Select UltraHDR Image</string>
+    <string name="ultra_hdr_to_hdr_video_screen_required_ultra_hdr_photo_message">Please select an UltraHDR image</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_success_message">Photo saved as a 10-bit HDR video</string>
+    <string name="ultra_hdr_to_hdr_video_screen_open_button_text">Open</string>
 </resources>
