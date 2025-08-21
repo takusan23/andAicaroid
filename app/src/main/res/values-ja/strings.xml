@@ -21,12 +21,21 @@
     <string name="hdr_video_to_ultra_hdr_screen_save_success_message">動画を UltraHDR 写真にして保存しました</string>
     <string name="hdr_video_to_ultra_hdr_screen_open_button_text">開く</string>
     <string name="hdr_video_to_ultra_hdr_screen_save_button_text">保存する</string>
-    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">保存先は Pictures/Ultraika です。</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">保存先は Pictures/andAicaroid です。</string>
     <string name="hdr_video_to_ultra_hdr_screen_select_video_button_text">10 ビット HDR 動画を選択</string>
     <string name="ultra_hdr_to_hdr_video_screen_title">UltraHDR 画像から HDR 動画を作る</string>
-    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">保存先は Movie/Ultraika です。</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">保存先は Movie/andAicaroid です。</string>
     <string name="ultra_hdr_to_hdr_video_screen_select_photo_button_text">UltraHDR 画像を選ぶ</string>
     <string name="ultra_hdr_to_hdr_video_screen_required_ultra_hdr_photo_message">UltraHDR 画像を選んでください</string>
     <string name="ultra_hdr_to_hdr_video_screen_save_success_message">写真を 10 ビット HDR 動画にして保存しました</string>
     <string name="ultra_hdr_to_hdr_video_screen_open_button_text">開く</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_title">ゲインマップ付き PNG 画像を UltraHDR に変換する</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_description">Android 16 から、HDR 動画、写真のスクリーンショットに対応しました。このファイルを PNG 画像から UltraHDR の JPEG 画像に変換します。</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_button">GainMap PNG -> UltraHDR</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_title">ゲインマップ付き PNG 画像を UltraHDR に変換する</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_required_gainmap_png_message">PNG 画像からゲインマップが見つかりませんでした。</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_save_success_message">保存しました</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_open_button_text">開く</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_save_location_message">保存先は Pictures/andAicaroid です。</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_select_file_button_text">ファイルを選ぶ</string>
 </resources>

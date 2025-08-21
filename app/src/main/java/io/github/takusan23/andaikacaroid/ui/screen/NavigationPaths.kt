@@ -8,6 +8,8 @@ enum class NavigationPaths(val path: String) {
 
     UltraHdrToHdrVideo("ultra_hdr_to_hdr_video"),
 
+    GainMapPngToUltraHdr("gainmap_png_to_ultra_hdr"),
+
     Setting("setting"),
 
     License("license")

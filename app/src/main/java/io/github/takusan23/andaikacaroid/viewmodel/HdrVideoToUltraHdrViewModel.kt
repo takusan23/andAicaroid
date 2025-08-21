@@ -248,7 +248,7 @@ class HdrVideoToUltraHdrViewModel(application: Application) : AndroidViewModel(a
             // Pictures/HDRVideoToUltraHdr フォルダに保存
             val fileContentValues = contentValuesOf(
                 MediaStore.Images.ImageColumns.DISPLAY_NAME to resultFile.name,
-                MediaStore.Images.ImageColumns.RELATIVE_PATH to "${Environment.DIRECTORY_PICTURES}/HDRVideoToUltraHdr"
+                MediaStore.Images.ImageColumns.RELATIVE_PATH to "${Environment.DIRECTORY_PICTURES}/andAicaroid"
             )
             val uri = context.contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, fileContentValues)!!
             context.contentResolver.openOutputStream(uri)?.use { outputStream ->

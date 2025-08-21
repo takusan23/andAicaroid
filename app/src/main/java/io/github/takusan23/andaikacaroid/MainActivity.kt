@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import io.github.takusan23.andaikacaroid.ui.screen.GainMapPngToUltraHdrScreen
 import io.github.takusan23.andaikacaroid.ui.screen.HdrVideoToUltraHdrScreen
 import io.github.takusan23.andaikacaroid.ui.screen.HomeScreen
 import io.github.takusan23.andaikacaroid.ui.screen.NavigationPaths
@@ -47,6 +48,10 @@ private fun MainScreen() {
 
         composable(NavigationPaths.UltraHdrToHdrVideo.path) {
             UltraHdrToHdrVideoScreen()
+        }
+
+        composable(NavigationPaths.GainMapPngToUltraHdr.path){
+            GainMapPngToUltraHdrScreen()
         }
 
         composable(NavigationPaths.Setting.path) {

@@ -20,12 +20,21 @@
     <string name="hdr_video_to_ultra_hdr_screen_save_success_message">Video saved as UltraHDR photo</string>
     <string name="hdr_video_to_ultra_hdr_screen_open_button_text">Open</string>
     <string name="hdr_video_to_ultra_hdr_screen_save_button_text">Save</string>
-    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">Destination is Pictures/Ultraika.</string>
+    <string name="hdr_video_to_ultra_hdr_screen_save_location_message">Destination is Pictures/andAicaroid.</string>
     <string name="hdr_video_to_ultra_hdr_screen_select_video_button_text">Select 10-bit HDR Video</string>
     <string name="ultra_hdr_to_hdr_video_screen_title">Create HDR Video from UltraHDR Image</string>
-    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">Destination is Movie/Ultraika.</string>
+    <string name="ultra_hdr_to_hdr_video_screen_save_location_message">Destination is Movie/andAicaroid.</string>
     <string name="ultra_hdr_to_hdr_video_screen_select_photo_button_text">Select UltraHDR Image</string>
     <string name="ultra_hdr_to_hdr_video_screen_required_ultra_hdr_photo_message">Please select an UltraHDR image</string>
     <string name="ultra_hdr_to_hdr_video_screen_save_success_message">Photo saved as a 10-bit HDR video</string>
     <string name="ultra_hdr_to_hdr_video_screen_open_button_text">Open</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_title">Convert Gain-map PNG to UltraHDR</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_description">Starting with Android 16, screenshots of HDR videos and photos are supported. This converts those PNG files into UltraHDR JPEG images.</string>
+    <string name="home_screen_gainmap_png_to_ultrahdr_button">GainMap PNG -> UltraHDR</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_title">Convert Gain-map PNG to UltraHDR</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_required_gainmap_png_message">No gain-map found in PNG image.</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_save_success_message">Saved</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_open_button_text">Open</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_save_location_message">Destination is Pictures/andAicaroid.</string>
+    <string name="gainmap_png_to_ultra_hdr_screen_select_file_button_text">Select File</string>
 </resources>

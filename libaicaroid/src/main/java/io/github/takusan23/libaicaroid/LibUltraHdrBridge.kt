@@ -7,7 +7,7 @@ object LibUltraHdrBridge {
 
     init {
         // happinesshdr.cpp をロード
-        System.loadLibrary("happinesshdr")
+        System.loadLibrary("libaicaroid")
     }
 
     /**

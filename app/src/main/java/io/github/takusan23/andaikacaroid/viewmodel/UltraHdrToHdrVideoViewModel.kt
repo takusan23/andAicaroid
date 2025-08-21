@@ -123,7 +123,7 @@ class UltraHdrToHdrVideoViewModel(application: Application) : AndroidViewModel(a
 
             val contentValues = contentValuesOf(
                 MediaStore.MediaColumns.DISPLAY_NAME to tempFile.name,
-                MediaStore.MediaColumns.RELATIVE_PATH to "${Environment.DIRECTORY_MOVIES}/Ultraika",
+                MediaStore.MediaColumns.RELATIVE_PATH to "${Environment.DIRECTORY_MOVIES}/andAicaroid",
                 MediaStore.MediaColumns.MIME_TYPE to "video/mp4"
             )
             val uri = context.contentResolver.insert(MediaStore.Video.Media.EXTERNAL_CONTENT_URI, contentValues)!!

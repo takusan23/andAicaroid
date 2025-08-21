@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -45,7 +46,7 @@ fun HomeScreen(
             )
         }
     ) { paddingValues ->
-        Column(
+        LazyColumn(
             modifier = Modifier
                 .padding(paddingValues)
                 .padding(horizontal = 10.dp),
@@ -53,22 +54,35 @@ fun HomeScreen(
         ) {
 
             // ご案内
-            HelloCard()
+            item { HelloCard() }
 
-            NavigateCard(
-                modifier = Modifier.fillMaxWidth(),
-                title = stringResource(id = R.string.home_screen_video_to_photo_title),
-                description = stringResource(id = R.string.home_screen_video_to_photo_description),
-                buttonText = stringResource(id = R.string.home_screen_video_to_photo_button),
-                onClick = { onNavigate(NavigationPaths.HdrVideoToUltraHdr) }
-            )
-            NavigateCard(
-                modifier = Modifier.fillMaxWidth(),
-                title = stringResource(id = R.string.home_screen_photo_to_video_title),
-                description = stringResource(id = R.string.home_screen_photo_to_video_description),
-                buttonText = stringResource(id = R.string.home_screen_photo_to_video_button),
-                onClick = { onNavigate(NavigationPaths.UltraHdrToHdrVideo) }
-            )
+            item {
+                NavigateCard(
+                    modifier = Modifier.fillMaxWidth(),
+                    title = stringResource(id = R.string.home_screen_video_to_photo_title),
+                    description = stringResource(id = R.string.home_screen_video_to_photo_description),
+                    buttonText = stringResource(id = R.string.home_screen_video_to_photo_button),
+                    onClick = { onNavigate(NavigationPaths.HdrVideoToUltraHdr) }
+                )
+            }
+            item {
+                NavigateCard(
+                    modifier = Modifier.fillMaxWidth(),
+                    title = stringResource(id = R.string.home_screen_photo_to_video_title),
+                    description = stringResource(id = R.string.home_screen_photo_to_video_description),
+                    buttonText = stringResource(id = R.string.home_screen_photo_to_video_button),
+                    onClick = { onNavigate(NavigationPaths.UltraHdrToHdrVideo) }
+                )
+            }
+            item {
+                NavigateCard(
+                    modifier = Modifier.fillMaxWidth(),
+                    title = stringResource(id = R.string.home_screen_gainmap_png_to_ultrahdr_title),
+                    description = stringResource(id = R.string.home_screen_gainmap_png_to_ultrahdr_description),
+                    buttonText = stringResource(id = R.string.home_screen_gainmap_png_to_ultrahdr_button),
+                    onClick = { onNavigate(NavigationPaths.GainMapPngToUltraHdr) }
+                )
+            }
         }
     }
 }
