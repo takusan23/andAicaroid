@@ -129,7 +129,7 @@ private fun HelloCard(modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(100.dp),
-                painter = painterResource(id = R.drawable.arrow_back_24px),
+                painter = painterResource(id = R.drawable.android_andaicaroid),
                 contentDescription = null,
                 tint = MaterialTheme.colorScheme.primary
             )
