@@ -1,6 +1,6 @@
 [versions]
 agp = "8.12.1"
-akaricore = "6.2.0"
+akaricore = "6.3.0"
 kotlin = "2.1.21"
 coreKtx = "1.17.0"
 junit = "4.13.2"
