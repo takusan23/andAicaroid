@@ -37,4 +37,6 @@
     <string name="gainmap_png_to_ultra_hdr_screen_open_button_text">Open</string>
     <string name="gainmap_png_to_ultra_hdr_screen_save_location_message">Destination is Pictures/andAicaroid.</string>
     <string name="gainmap_png_to_ultra_hdr_screen_select_file_button_text">Select File</string>
+    <string name="hdr_video_to_ultra_hdr_screen_unsupported_device_message">HDR functionality was not available on your device. Please try a new device.</string>
+    <string name="ultra_hdr_to_hdr_video_screen_unsupported_device_message">HDR functionality was not available on your device. Please try a new device.</string>
 </resources>

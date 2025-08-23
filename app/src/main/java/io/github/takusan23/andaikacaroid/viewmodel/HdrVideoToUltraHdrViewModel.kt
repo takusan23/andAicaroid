@@ -26,6 +26,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
@@ -119,6 +120,9 @@ class HdrVideoToUltraHdrViewModel(application: Application) : AndroidViewModel(a
                 // TODO Processor が破棄されても、コンテキストを切り替えればワンちゃん
             }
         }
+    }.catch {
+        // 多分非対応だと↑の OpenGL EGL 周りで落ちるはず
+        _snackbarStateFlow.value = SnackbarState.UnSupportedDevice
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.Eagerly,
@@ -269,5 +273,6 @@ class HdrVideoToUltraHdrViewModel(application: Application) : AndroidViewModel(a
     sealed interface SnackbarState {
         data object RequiredHdrVideo : SnackbarState
         data class Save(val photoUri: Uri) : SnackbarState
+        data object UnSupportedDevice : SnackbarState
     }
 }

@@ -64,6 +64,12 @@ fun HdrVideoToUltraHdrScreen(viewModel: HdrVideoToUltraHdrViewModel = viewModel(
                         context.startActivity(Intent(Intent.ACTION_VIEW, state.photoUri))
                     }
                 }
+
+                HdrVideoToUltraHdrViewModel.SnackbarState.UnSupportedDevice -> {
+                    snackbarHostState.showSnackbar(
+                        message = context.getString(R.string.hdr_video_to_ultra_hdr_screen_unsupported_device_message)
+                    )
+                }
             }
             viewModel.dismissSnackbar()
         }

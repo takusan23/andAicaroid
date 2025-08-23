@@ -38,4 +38,6 @@
     <string name="gainmap_png_to_ultra_hdr_screen_open_button_text">開く</string>
     <string name="gainmap_png_to_ultra_hdr_screen_save_location_message">保存先は Pictures/andAicaroid です。</string>
     <string name="gainmap_png_to_ultra_hdr_screen_select_file_button_text">ファイルを選ぶ</string>
+    <string name="hdr_video_to_ultra_hdr_screen_unsupported_device_message">ご利用の端末では HDR の機能が利用できませんでした。新しい端末でお試しください。</string>
+    <string name="ultra_hdr_to_hdr_video_screen_unsupported_device_message">ご利用の端末では HDR の機能が利用できませんでした。新しい端末でお試しください。</string>
 </resources>
