@@ -15,7 +15,10 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags += ""
-                arguments += listOf("-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON") // 16KB ページサイズ
+                arguments += listOf(
+                    "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON", // 16KB ページサイズ
+                    "-DANDROID_STL=c++_shared" // java.lang.UnsatisfiedLinkError: dlopen failed: library "libc++_shared.so" not found: needed 対策
+                )
             }
         }
     }
