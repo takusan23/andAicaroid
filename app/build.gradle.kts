@@ -41,7 +41,7 @@ android {
 
 dependencies {
 
-    // happinesshdr をロード
+    // libaicaroid をロード
     implementation(project(":libaicaroid"))
 
     // OpenGL ES や MediaCodec 周りを
