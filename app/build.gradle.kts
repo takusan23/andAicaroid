@@ -5,10 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.takusan23.andaikacaroid"
+    namespace = "io.github.takusan23.andaicaroid"
     compileSdk = 36
 
     defaultConfig {
+        // 名前ミスってるけど後からは直せない
         applicationId = "io.github.takusan23.andaikacaroid"
         minSdk = 34
         targetSdk = 36

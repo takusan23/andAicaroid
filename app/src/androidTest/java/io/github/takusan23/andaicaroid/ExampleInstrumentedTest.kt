@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid
+package io.github.takusan23.andaicaroid
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("io.github.takusan23.andaikacaroid", appContext.packageName)
+        assertEquals("io.github.takusan23.andaicaroid", appContext.packageName)
     }
 }

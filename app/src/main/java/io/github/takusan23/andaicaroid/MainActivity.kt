@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid
+package io.github.takusan23.andaicaroid
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,14 +8,14 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import io.github.takusan23.andaikacaroid.ui.screen.GainMapPngToUltraHdrScreen
-import io.github.takusan23.andaikacaroid.ui.screen.HdrVideoToUltraHdrScreen
-import io.github.takusan23.andaikacaroid.ui.screen.HomeScreen
-import io.github.takusan23.andaikacaroid.ui.screen.NavigationPaths
-import io.github.takusan23.andaikacaroid.ui.screen.UltraHdrToHdrVideoScreen
-import io.github.takusan23.andaikacaroid.ui.screen.setting.LicenseScreen
-import io.github.takusan23.andaikacaroid.ui.screen.setting.SettingScreen
-import io.github.takusan23.andaikacaroid.ui.theme.UltraikaTheme
+import io.github.takusan23.andaicaroid.ui.screen.GainMapPngToUltraHdrScreen
+import io.github.takusan23.andaicaroid.ui.screen.HdrVideoToUltraHdrScreen
+import io.github.takusan23.andaicaroid.ui.screen.HomeScreen
+import io.github.takusan23.andaicaroid.ui.screen.NavigationPaths
+import io.github.takusan23.andaicaroid.ui.screen.UltraHdrToHdrVideoScreen
+import io.github.takusan23.andaicaroid.ui.screen.setting.LicenseScreen
+import io.github.takusan23.andaicaroid.ui.screen.setting.SettingScreen
+import io.github.takusan23.andaicaroid.ui.theme.UltraikaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

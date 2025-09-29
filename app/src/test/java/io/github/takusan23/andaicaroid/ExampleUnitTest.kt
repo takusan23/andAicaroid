@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid
+package io.github.takusan23.andaicaroid
 
 import org.junit.Test
 

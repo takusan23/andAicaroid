@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.screen
+package io.github.takusan23.andaicaroid.ui.screen
 
 import android.content.Intent
 import android.net.Uri
@@ -33,9 +33,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.github.takusan23.andaikacaroid.R
-import io.github.takusan23.andaikacaroid.ui.components.MessageCard
-import io.github.takusan23.andaikacaroid.viewmodel.HdrVideoToUltraHdrViewModel
+import io.github.takusan23.andaicaroid.R
+import io.github.takusan23.andaicaroid.ui.components.MessageCard
+import io.github.takusan23.andaicaroid.viewmodel.HdrVideoToUltraHdrViewModel
 import kotlinx.coroutines.flow.collectLatest
 
 @OptIn(ExperimentalMaterial3Api::class)

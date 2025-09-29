@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.screen
+package io.github.takusan23.andaicaroid.ui.screen
 
 enum class NavigationPaths(val path: String) {
 

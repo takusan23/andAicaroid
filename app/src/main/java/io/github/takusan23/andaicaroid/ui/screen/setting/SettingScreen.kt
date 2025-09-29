@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.screen.setting
+package io.github.takusan23.andaicaroid.ui.screen.setting
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Column
@@ -20,8 +20,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.net.toUri
-import io.github.takusan23.andaikacaroid.R
-import io.github.takusan23.andaikacaroid.ui.screen.NavigationPaths
+import io.github.takusan23.andaicaroid.R
+import io.github.takusan23.andaicaroid.ui.screen.NavigationPaths
 
 private const val GitHubUrl = "https://github.com/takusan23/Ultraika"
 

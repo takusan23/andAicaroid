@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.viewmodel
+package io.github.takusan23.andaicaroid.viewmodel
 
 import android.app.Application
 import android.content.Context

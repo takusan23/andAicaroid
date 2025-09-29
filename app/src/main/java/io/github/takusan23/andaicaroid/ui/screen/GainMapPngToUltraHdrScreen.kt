@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.screen
+package io.github.takusan23.andaicaroid.ui.screen
 
 import android.content.Intent
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -26,9 +26,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import io.github.takusan23.andaikacaroid.R
-import io.github.takusan23.andaikacaroid.ui.components.MessageCard
-import io.github.takusan23.andaikacaroid.viewmodel.GainMapPngToUltraHdrViewModel
+import io.github.takusan23.andaicaroid.R
+import io.github.takusan23.andaicaroid.ui.components.MessageCard
+import io.github.takusan23.andaicaroid.viewmodel.GainMapPngToUltraHdrViewModel
 import kotlinx.coroutines.flow.collectLatest
 
 @OptIn(ExperimentalMaterial3Api::class)

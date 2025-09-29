@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.components
+package io.github.takusan23.andaicaroid.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import io.github.takusan23.andaikacaroid.R
+import io.github.takusan23.andaicaroid.R
 
 /**
  * メモというか、補足説明をするためのカード型のメッセージ表示するやつ

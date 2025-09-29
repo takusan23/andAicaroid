@@ -1,4 +1,4 @@
-package io.github.takusan23.andaikacaroid.ui.theme
+package io.github.takusan23.andaicaroid.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
