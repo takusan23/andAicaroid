@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "andAikacaroid"
+rootProject.name = "andAicaroid"
 include(":app")
 include(":libaicaroid")
