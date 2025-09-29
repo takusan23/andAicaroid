@@ -6,14 +6,14 @@ package io.github.takusan23.libaicaroid
 object LibUltraHdrBridge {
 
     init {
-        // happinesshdr.cpp をロード
+        // libaicaroid.cpp をロード
         System.loadLibrary("libaicaroid")
     }
 
     /**
      * 入力 HDR フレームのガンマカーブ
      *
-     * @param cppIndex happinesshdr 側と同じ
+     * @param cppIndex libaicaroid 側と同じ
      */
     enum class HdrColorSpaceType(val cppIndex: Int) {
         HLG(0),
