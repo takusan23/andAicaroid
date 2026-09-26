@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
     // Maven Central に公開する際に利用
     `maven-publish`
     signing
@@ -17,7 +16,7 @@ plugins {
 
 android {
     namespace = "io.github.takusan23.libaicaroid"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         minSdk = 23
@@ -44,9 +43,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
     }
     externalNativeBuild {
         cmake {
