@@ -74,7 +74,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "io.github.takusan23"
             artifactId = "libaicaroid"
-            version = "1.0.0" // バージョンアップの際は LIB_RELEASE_NOTE.md.md も更新 + release_libaicaroid ブランチの更新
+            version = "1.1.0" // バージョンアップの際は LIB_RELEASE_NOTE.md.md も更新 + release_libaicaroid ブランチの更新
 
             // afterEvaluate しないとエラーなる
             afterEvaluate {
